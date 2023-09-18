@@ -40,7 +40,7 @@ public class Sample {
             val invoiceApi = new InterfejsyInteraktywneFakturaApi(client);
             val sessionToken = signedResponse.getSessionToken().getToken();
 
-            val resp = invoiceApi.invoiceSend(new File("ksef-sample/src/main/resources/FA2.xml"), sessionToken);
+            val resp = invoiceApi.invoiceSend(new File("src/main/resources/FA2.xml"), sessionToken);
 
             System.out.printf("ElementReferenceNumber %s, ReferenceNumber %s, ProcessingCode %d\n",
                     resp.getElementReferenceNumber(),
@@ -50,7 +50,8 @@ public class Sample {
         } catch (ApiException ex) {
             System.out.printf("Błąd wywołania API %d (%s) opis błędu %s", ex.getCode(), ex.getMessage(),  ex.getResponseBody());
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("błąd: " + e.getMessage());
+            e.printStackTrace();
         }
 
     }
