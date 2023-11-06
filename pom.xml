@@ -8,7 +8,7 @@
     <artifactId>java-ksef-sample</artifactId>
 
     <properties>
-        <ksef.client.version>2.0.18</ksef.client.version>
+        <ksef.client.version>2.0.20</ksef.client.version>
     </properties>
 
     <dependencies>

@@ -3,17 +3,17 @@
     <Naglowek>
         <KodFormularza kodSystemowy="FA (2)" wersjaSchemy="1-0E">FA</KodFormularza>
         <WariantFormularza>2</WariantFormularza>
-        <DataWytworzeniaFa>2023-08-29T12:34:13.7802571Z</DataWytworzeniaFa>
+        <DataWytworzeniaFa>2023-11-03T15:34:13.7802571Z</DataWytworzeniaFa>
         <SystemInfo>Samplofaktur</SystemInfo>
     </Naglowek>
     <Podmiot1>
         <DaneIdentyfikacyjne>
-            <NIP>9781399259</NIP>
-            <Nazwa>ABC AGD sp. z o. o.</Nazwa>
+            <NIP>2932110194</NIP>
+            <Nazwa>Faktor S.A.</Nazwa>
         </DaneIdentyfikacyjne>
         <Adres>
             <KodKraju>PL</KodKraju>
-            <AdresL1>ul. Kwiatowa 1</AdresL1>
+            <AdresL1>ul. Księżycowa 1/2</AdresL1>
         </Adres>
         <DaneKontaktowe>
             <Email>example@example.com</Email>
@@ -21,18 +21,18 @@
     </Podmiot1>
     <Podmiot2>
         <DaneIdentyfikacyjne>
-            <NIP>1250753505</NIP>
-            <Nazwa>CeDeE s.c.</Nazwa>
+            <NIP>8934318499</NIP>
+            <Nazwa>Warzywa i Owoce Sp. z o.o.</Nazwa>
         </DaneIdentyfikacyjne>
         <Adres>
             <KodKraju>PL</KodKraju>
-            <AdresL1>ulica i numer</AdresL1>
+            <AdresL1>ul. Piękna 1</AdresL1>
         </Adres>
     </Podmiot2>
     <Fa>
         <KodWaluty>PLN</KodWaluty>
         <P_1>2023-09-18</P_1>
-        <P_2>FK2023/09/18</P_2>
+        <P_2>FV/2023/001</P_2>
         <P_13_1>0</P_13_1>
         <P_14_1>0</P_14_1>
         <P_13_2>0</P_13_2>
