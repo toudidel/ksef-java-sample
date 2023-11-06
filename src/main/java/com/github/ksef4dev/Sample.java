@@ -72,6 +72,7 @@ public class Sample {
 //
 //            System.out.printf("referenceNumber %s\n", upo.getReferenceNumber());
 
+            Thread.sleep(1000);
             ByteArrayOutputStream out = new ByteArrayOutputStream();
 //            invoiceApi.getInvoice(referenceNumber, sessionToken, baos);
             invoiceApi.getInvoice(referenceNumber, signedResponse.getSessionToken().getToken(), out);
