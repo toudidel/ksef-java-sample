@@ -28,9 +28,7 @@ public class Sample {
 
     private static final String NIP_FIRMY = "2932110194";
     public static final String token = "E5D99064EBCA79DFD6366BCEA048A1EBCE63510F70EAE9E8A4385879F9761AEE"; // 2932110194
-//    public static final String token = "E4F7C6980BBACCCCDCBDBF78554EBFCB527B61DF8C3BC6285F052AE1834BE672"; // 2932110194
-//public static final String token = "E0A3CE8E62EDEE6B3AE73767F71A58959DDB065144965F99C464A92708784411"; // 8934318499
-    public static final String referenceNumber = "2932110194-20231106-5261A5E33123-6F";
+    public static final String referenceNumber = "8934318499-20231116-62744306A7CF-F2";
 
     private static final JsonSerializer serializer = new GsonJsonSerializer();
     private static final ApiClient client = new OkHttpApiClient(serializer);
